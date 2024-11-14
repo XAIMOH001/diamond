@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home page</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<body>
+
+<label>
+    <input type="checkbox">
+
+    <div class="toggle">
+        <span class="top_line common"></span>
+        <span class="middle_line common"></span>
+        <span class="bottom_line common"></span>
+    </div>
+
+    <div class="slide">
+        <h1>MENU</h1>
+        <ul>
+    <li><a href=""><i class="fas fa-home"></i> Home</a></li>
+    <li><a href="register/"><i class="fas fa-user-plus"></i> Register</a></li>
+    <li><a href="about/"><i class="fas fa-info-circle"></i> About us</a></li>
+    <li><a href="services/"><i class="fas fa-cogs"></i> Services</a></li>
+    <li><a href="contact/"><i class="fas fa-envelope"></i> Contact us</a></li>
+</ul>
+    </div>
+</label>
+<div class="body">
+    Diamond tech Hub
+</div>
+
+</body>
+</html>
